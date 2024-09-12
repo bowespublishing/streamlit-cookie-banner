@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #cookie-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            box-sizing: border-box;
+            background-color: #333;
+            color: white;
+            text-align: center;
+			line-height: 1.5;  /* Adjust the line spacing */
+            padding: 15px;
+            z-index: 1000;
+        }
+
+        #cookie-banner button {
+            margin-left: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #cookie-banner button:hover {
+            background-color: #45a049;
+        }
+		
+		#banner-link {
+		  color: #ffffff;
+		}
+    </style>
+    <title>Cookie Banner</title>
+</head>
+<body>
+    <div id="cookie-banner" class="cookie-banner">
+        <span id="banner-text"></span>
+		<a id="banner-link" href="#" target="_blank" style="display: none;"></a>
+        <button id="accept-cookie">Accept</button>
+        <button id="reject-cookie">Reject</button>
+    </div>
+    
+    <!-- Include streamlit-component-lib.js before main.js -->
+    <script src="./streamlit-component-lib.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
