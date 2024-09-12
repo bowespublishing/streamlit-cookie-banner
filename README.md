@@ -8,11 +8,11 @@ You can install this component by adding it to your project and running the foll
 
 ```bash
 pip install streamlit-cookie-banner
-Usage
+'''
+
+## Usage
 To use the cookie banner in your Streamlit app, you simply import the cookie_banner function from the component and use it within your Streamlit app like this:
 
-python
-Copy code
 import streamlit as st
 from streamlit_cookie_banner import cookie_banner
 
