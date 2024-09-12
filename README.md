@@ -4,7 +4,7 @@ A custom Streamlit component to display a basic cookie banner on your Streamlit 
 
 ## Installation
 
-You can install this component by adding it to your project and running the following command after packaging it:
+You can install this component by...
 
     pip install streamlit-cookie-banner
 
